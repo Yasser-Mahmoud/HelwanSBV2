@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Activity titles -->
+    <string name="app_name">Helwan SB v2</string>
+    <string name="title_activity_register">Register</string>
+    
+      <!-- Strings related to Registration -->
+    <string name="prompt_name">Name</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_mobile">Mobile ex. (+20)100 000 0000</string>
+    <string name="prompt_spinner">Choose your position</string>
+    <string name="prompt_textview">Choose your position</string>
+    <string name="action_register">Register</string>
+    <string name="registering">Registering&#8230;</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_incorrect_mobile">This mobile number is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    
+     <!-- Committees spinner array  -->
+    <string-array name="committee_array">
+        <item>Ex-com</item>
+        <item>Head</item>
+        <item>HR volunteer</item>
+        <item>IPR volunteer</item>
+        <item>EPR volunteer</item>
+        <item>FR volunteer</item>
+        <item>Logistic volunteer</item>
+        <item>Academic volunteer</item>
+        <item>Membership volunteer</item>
+        <item>IT &amp; Media volunteer</item>
+        <item>Dear guest</item>
+     </string-array>
+        
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="error_thumbnail_view">There was an error initializing the YouTubeThumbnailView (%1$s)</string> 
+    
+</resources>

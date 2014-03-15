@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/speech_bubble_orange"
+    android:layout_margin="7sp" >
+    
+
+    <TextView
+        android:id="@+id/message_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:shadowColor="@color/textShadow"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:text="asad"
+        android:textColor="@color/textColor"
+        android:textSize="15sp" />
+ 
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        
+        <TextView
+        android:id="@+id/message_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:shadowColor="@color/textShadow"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:text="11/8/13"
+        android:textColor="@color/datetimeColor"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/message_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:layout_toRightOf="@id/message_date"
+        android:shadowColor="@color/textShadow"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:text="23:15"
+        android:textColor="@color/datetimeColor"
+        android:textSize="13sp" />
+    
+    </RelativeLayout>
+</LinearLayout>

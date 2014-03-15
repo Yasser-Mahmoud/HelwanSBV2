@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="light_blue">#0298db</color>
+    <color name="dark_blue">#0d6da1</color>
+    <color name="textShadow">#FFF</color>
+    <color name="textColor">#FFF</color>
+     <color name="datetimeColor">#000000</color>  
+</resources>
