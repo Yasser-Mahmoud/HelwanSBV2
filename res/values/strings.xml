@@ -32,6 +32,17 @@
      </string-array>
         
     <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
-    <string name="error_thumbnail_view">There was an error initializing the YouTubeThumbnailView (%1$s)</string> 
+    <string name="error_thumbnail_view">There was an error initializing the YouTubeThumbnailView (%1$s)</string>
+    
+    <string name="about_us">IEEE Helwan Student Branch \n www.ieeehsb.org SOON! \n\n Helwan University School of Engineering has established the IEEE Student Branch in Faculty of Engineering in May, 2000 under Egypt Section.
+        With the vision to "Empower, inspire, and enable each one become the future leader of his own profession".
+        \n\n Empower: \n IEEE|HSB passionate volunteers started its very first development activities in 2010 with
+        basic electronics workshop; first peer-to-peer workshop implemented by IEEE HelwanSB Academic Committee. \n\n
+        Inspire: \n By public conferences and sessions, IEEE HelwanSB strives to inspire young students to reach
+        their maximum goals by speeches of famous key speakers in various fields and in entrepreneurship particularly. \n\n
+        Enable: \n By providing career opportunities and summer internships for senior engineering students,
+        IEEE HelwanSB gives them the opportunity to kick-start their career and professional work. \n\n
+        Follow us on: \n
+        www.facebook.com/helwansb \n www.twitter.com/helwansb</string>
     
 </resources>

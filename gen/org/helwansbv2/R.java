@@ -1206,7 +1206,7 @@ containing a value of this type.
         public static final int disableHome=0x7f050008;
         public static final int dropdown=0x7f05000f;
         public static final int edit_query=0x7f050034;
-        public static final int email=0x7f050045;
+        public static final int email=0x7f050046;
         public static final int end=0x7f050013;
         public static final int expand_activities_button=0x7f05002a;
         public static final int expanded_menu=0x7f050030;
@@ -1218,24 +1218,24 @@ containing a value of this type.
         public static final int image=0x7f05002b;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f05002d;
-        public static final int message_date=0x7f05004b;
-        public static final int message_text=0x7f05004c;
-        public static final int message_time=0x7f05004d;
+        public static final int message_date=0x7f05004c;
+        public static final int message_text=0x7f05004d;
+        public static final int message_time=0x7f05004e;
         public static final int middle=0x7f050012;
-        public static final int mobile=0x7f050046;
-        public static final int name=0x7f050044;
+        public static final int mobile=0x7f050047;
+        public static final int name=0x7f050045;
         public static final int never=0x7f050009;
         public static final int none=0x7f050010;
         public static final int normal=0x7f050000;
-        public static final int pager=0x7f050040;
+        public static final int pager=0x7f050041;
         public static final int player_view=0x7f05001d;
         public static final int progress_circular=0x7f050018;
         public static final int progress_horizontal=0x7f050019;
         public static final int radio=0x7f050033;
-        public static final int register_button=0x7f050049;
-        public static final int register_form=0x7f050043;
-        public static final int register_status=0x7f050041;
-        public static final int register_status_message=0x7f050042;
+        public static final int register_button=0x7f05004a;
+        public static final int register_form=0x7f050044;
+        public static final int register_status=0x7f050042;
+        public static final int register_status_message=0x7f050043;
         public static final int satellite=0x7f05001a;
         public static final int search_badge=0x7f050036;
         public static final int search_bar=0x7f050035;
@@ -1251,18 +1251,19 @@ containing a value of this type.
         public static final int showCustom=0x7f050007;
         public static final int showHome=0x7f050004;
         public static final int showTitle=0x7f050006;
-        public static final int spinner=0x7f050048;
+        public static final int spinner=0x7f050049;
         public static final int split_action_bar=0x7f050022;
         public static final int submit_area=0x7f05003d;
         public static final int tabMode=0x7f050002;
         public static final int terrain=0x7f05001b;
-        public static final int textview=0x7f050047;
+        public static final int textview=0x7f050048;
+        public static final int textview_about_us=0x7f050040;
         public static final int title=0x7f05002f;
         public static final int top_action_bar=0x7f050024;
         public static final int up=0x7f050025;
         public static final int useLogo=0x7f050003;
         public static final int withText=0x7f05000c;
-        public static final int youtube_fragment=0x7f05004a;
+        public static final int youtube_fragment=0x7f05004b;
     }
     public static final class integer {
         /**  The maximum number of action buttons that should be permitted within
@@ -1364,6 +1365,7 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
+        public static final int about_us=0x7f0a0035;
         public static final int action_register=0x7f0a002e;
         /**  Activity titles 
          */

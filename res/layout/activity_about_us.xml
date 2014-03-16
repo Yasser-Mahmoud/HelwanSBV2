@@ -3,14 +3,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#fa6a6a" >
+    android:background="@drawable/registeractivity_background" >
      
     <TextView android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="About us"
+        android:gravity="left"
         android:textSize="20dp"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true"
+        android:text="@string/about_us"
+        android:textColor="#fff"
+        android:autoLink="web"
+        android:textColorLink="@android:color/black"
+        android:id="@+id/textview_about_us" />"
      
  
 </RelativeLayout>

@@ -22,7 +22,6 @@ public class HistoryDatabase extends SQLiteOpenHelper {
     private static final String COLUMN_DATE = "date";
     private static final String COLUMN_TIME = "time";
     private static final String COLUMN_CONTENT = "content";
-    private static String old = null;
  
     public HistoryDatabase(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -53,13 +52,7 @@ public class HistoryDatabase extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getWritableDatabase();
  
         ContentValues values = new ContentValues();
-        if (message[0].equals(old))
-        	values.put(COLUMN_DATE, "");
-        else{
-        	values.put(COLUMN_DATE, message[0]); // Receiving date
-            old = message[0];
-        }
-        
+        values.put(COLUMN_DATE, message[0]); // Receiving date
         values.put(COLUMN_TIME, message[1]); //Receiving time
         values.put(COLUMN_CONTENT, message[2]); // Message
  
@@ -101,15 +94,6 @@ public class HistoryDatabase extends SQLiteOpenHelper {
         // return contact list
         return messageList;
     }
- 
-    // Deleting single contact
-    //public void deleteContact(Contact contact) {
-        //SQLiteDatabase db = this.getWritableDatabase();
-        //db.delete(TABLE_CONTACTS, KEY_ID + " = ?",
-                //new String[] { String.valueOf(contact.getID()) });
-        //db.close();
-    //}
- 
  
     // Getting messages Count
     public int getMessagesCount() {
